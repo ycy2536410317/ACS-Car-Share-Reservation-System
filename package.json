@@ -1,0 +1,46 @@
+{
+  "name": "acs-system",
+  "version": "1.0.0",
+  "description": "ACS-Car-Share-Reservation-System",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycy2536410317/ACS-Car-Share-Reservation-System.git"
+  },
+  "author": "ycy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ycy2536410317/ACS-Car-Share-Reservation-System/issues"
+  },
+  "homepage": "https://github.com/ycy2536410317/ACS-Car-Share-Reservation-System#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.27.0",
+    "slugify": "^1.6.5",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "ndb": "^1.1.5",
+    "prettier": "^1.17.0"
+  }
+}
